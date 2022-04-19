@@ -29,6 +29,7 @@
           <div class="col-md-12">
 		   
             <div class="top_left_cont zoomIn wow animated"> 
+              <img src="img/BostonU-OpenGuide_0.png" alt="logo2" class="center">
               <h2>A Scalable Human-Like Guidance System for Visually Impaired Travelers<br/><strong>Open-Guide</strong></h2>
  
               <a href="#service" class="read_more2">My Gallery</a> </div>
@@ -44,18 +45,19 @@
 <header id="header_wrapper">
   <div class="container">
     <div class="header_box">
-      <div class="logo"><a href="#"><img src="img/logo.png" alt="logo"></a></div>
+      <div class="logo"><a href="#"><img src="img/logo_large.png" alt="logo"></a></div>
 	  <nav class="navbar navbar-inverse" role="navigation">
       <div class="navbar-header">
         <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         </div>
 	    <div id="main-nav" class="collapse navbar-collapse navStyle">
 			<ul class="nav navbar-nav" id="mainNav">
-			  <li class="active"><a href="#hero_section" class="scroll-link">Home</a></li>
-			  <li><a href="#aboutUs" class="scroll-link">About OpenGuide</a></li>
+			  <li class="active navbar-nav"><a href="#hero_section" class="scroll-link">Home</a></li>
+			  <li><a href="#aboutUs" class="scroll-link ">About OpenGuide</a></li>
 			  <li><a href="#service" class="scroll-link">Our Goals</a></li>
 			  <li><a href="#Videos" class="scroll-link">Videos</a></li>
-        <li><a href="#Dataset" class="scroll-link">Dataset</a></li>  
+        <li><a href="#Dataset" class="scroll-link">Benchmark</a></li>
+        <li><a href="#Tool" class="scroll-link">Tool</a></li>    
 			  <li><a href="#contact" class="scroll-link">Contact</a></li>
 			</ul>
       </div>
@@ -190,7 +192,7 @@
     
     <!-- Title -->
     <div class="section-title">
-      <h2>Portfolio</h2>
+      <h2>OpenGuide-Benchmark</h2>
 	<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
 	  
     </div>
@@ -209,18 +211,24 @@
         <li><a id="all" href="#" data-filter="*" class="active">
           <h5>All</h5>
           </a></li>
-        <li><a class="" href="#" data-filter=".Detection">
-          <h5>nature</h5>
+        <li><a class="" href="#" data-filter=".detection">
+          <h5>detection</h5>
           </a></li>
-        <li><a class="" href="#" data-filter=".Segmentation">
-          <h5>wildlife</h5>
+        <li><a class="" href="#" data-filter=".segmentation">
+          <h5>segmentation</h5>
           </a></li>
-        <li><a class="" href="#" data-filter=".Mesh">
-          <h5>citylife</h5>
+        <li><a class="" href="#" data-filter=".keypoints">
+          <h5>keypoints</h5>
           </a></li>
-        <li><a class="" href="#" data-filter=".Navigation">
-          <h5>Animals</h5>
+        <li><a class="" href="#" data-filter=".mesh">
+          <h5>mesh</h5>
           </a></li> 
+        <li><a class="" href="#" data-filter=".simulation">
+          <h5>simulation</h5>
+        </a></li>
+        <li><a class="" href="#" data-filter=".realworld">
+          <h5>real-world</h5>
+        </a></li>
       </ul>
     </div>
     <!--/Portfolio Filters --> 
@@ -228,15 +236,15 @@
     <!-- Portfolio Wrapper -->
     <div class="isotope fadeInLeft animated wow grid" style="position: relative; overflow: hidden; height: 480px;" id="portfolio_wrapper">  
       <!-- Portfolio Item -->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   animals isotope-item effect-oscar">
-	   
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   segmentation simulation realworld isotope-item effect-oscar">
         <div class="portfolio_img"> 
 		<img src="img/portfolio_pic1.jpg"  alt="Portfolio 1"> </div> 
 			<figcaption>		
 				<div>
-				  <a href="img/portfolio_pic1.jpg" class="fancybox"> 
-					<h2>Warm <span>Oscar</span></h2>
-							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+				  <a href="https://eval.ai/web/challenges/challenge-page/1690/overview" class="fancybox"> 
+					<h2>instance segmentation</h2>
+							<p>Sensor: RGB camera.</p>
+              <p>View: Vehicle view.</p>
 				  </a>
 				</div>
 			</figcaption>
@@ -244,13 +252,14 @@
       <!--/Portfolio Item --> 
       
       <!-- Portfolio Item-->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife isotope-item effect-oscar">
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  keypoints simulation realworld isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="img/portfolio_pic2.jpg" alt="Portfolio 1"> </div>
         	<figcaption>		
 				<div>
 				  <a href="img/portfolio_pic2.jpg" class="fancybox"> 
-					<h2>Warm <span>Oscar</span></h2>
-							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+					<h2>keypoint estimation</h2>
+							<p>Sensor: RGB camera.</p>
+              <p>View: Vehicle view.</p>
 				  </a>
 				</div>
 			</figcaption>
@@ -258,13 +267,14 @@
       <!--/Portfolio Item --> 
       
       <!-- Portfolio Item -->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife  isotope-item effect-oscar">
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  mesh simulation  isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="img/portfolio_pic3.jpg" alt="Portfolio 1"> </div>
        <figcaption>		
 				<div>
 				  <a href="img/portfolio_pic3.jpg" class="fancybox"> 
-					<h2>Warm <span>Oscar</span></h2>
-							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+					<h2>3D mesh reconstruction</h2>
+							<p>Sensor: RGB camera.</p>
+              <p>View: Vehicle view.</p>
 				  </a>
 				</div>
 			</figcaption>
@@ -272,13 +282,14 @@
       <!--/Portfolio Item--> 
       
       <!-- Portfolio Item-->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  citylife  nature web isotope-item effect-oscar">
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 0px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  simulation  realworld  isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="img/portfolio_pic4.jpg" alt="Portfolio 1"> </div>
          <figcaption>		
 				<div>
 				  <a href="img/portfolio_pic4.jpg" class="fancybox"> 
-					<h2>Warm <span>Oscar</span></h2>
-							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+					<h2>Human Guidance</h2>
+              <p>Sensor: RGB camera.</p>
+              <p>View: Vehicle view.</p>
 				  </a>
 				</div>
 			</figcaption>
@@ -286,13 +297,14 @@
       <!-- Portfolio Item --> 
       
       <!-- Portfolio Item -->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife isotope-item effect-oscar">
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(0px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  detection simulation isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="img/portfolio_pic5.jpg" alt="Portfolio 1"> </div>
        <figcaption>		
 				<div>
 				  <a href="img/portfolio_pic5.jpg" class="fancybox"> 
-					<h2>Warm <span>Oscar</span></h2>
-							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+					<h2>Vehicle Parts</span></h2>
+							<p>Sensor: RGB camera.</p>
+              <p>View: Vehicle view.</p>
 				  </a>
 				</div>
 			</figcaption>
@@ -300,13 +312,14 @@
       <!--/Portfolio Item --> 
       
       <!-- Portfolio Item -->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  web isotope-item effect-oscar">
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(337px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four detection simulation isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="img/portfolio_pic6.jpg" alt="Portfolio 1"> </div>
        <figcaption>		
 				<div>
 				  <a href="img/portfolio_pic6.jpg" class="fancybox"> 
-					<h2>Warm <span>Oscar</span></h2>
-							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+					<h2>Vehicle Make & Model</span></h2>
+							<p>Sensor: RGB camera.</p>
+              <p>View: Person view.</p>
 				  </a>
 				</div>
 			</figcaption>
@@ -314,13 +327,14 @@
       <!--/Portfolio Item --> 
       
       <!-- Portfolio Item  -->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  wildlife web isotope-item effect-oscar">
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(674px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four  simulation realworld isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="img/portfolio_pic7.jpg" alt="Portfolio 1"> </div>       
        <figcaption>		
 				<div>
 				  <a href="img/portfolio_pic7.jpg" class="fancybox"> 
-					<h2>Warm <span>Oscar</span></h2>
-							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+					<h2>Motion Modeling</h2>
+							<p>Sensor: RGB camera.</p>
+              <p>View: Person view.</p>
 				  </a>
 				</div>
 			</figcaption>
@@ -328,13 +342,14 @@
       <!--/Portfolio Item --> 
       
       <!-- Portfolio Item -->
-      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   citylife isotope-item effect-oscar">
+      <figure style="position: absolute; left: 0px; top: 0px; transform: translate3d(1011px, 240px, 0px) scale3d(1, 1, 1); width: 337px; opacity: 1;" class="portfolio-item one-four   simulation realworld isotope-item effect-oscar">
         <div class="portfolio_img"> <img src="img/portfolio_pic8.jpg" alt="Portfolio 1"> </div>       
       <figcaption>		
 				<div>
 				  <a href="img/portfolio_pic8.jpg" class="fancybox"> 
-					<h2>Warm <span>Oscar</span></h2>
-							<p>Oscar is a decent man. He used to clean porches with pleasure.</p>
+					<h2>Trajectory Prediction</span></h2>
+							<p>Sensor: RGB camera, lidar.</p>
+              <p>View: Vehicle view.</p>
 				  </a>
 				</div>
 			</figcaption>
@@ -358,14 +373,33 @@
   
 </section>
 <!--/Portfolio --> 
+<section id="Tool"><!--Aboutus-->
+<div class="inner_wrapper about-us aboutUs-container fadeInLeft animated wow">
+  <div class="container">
+    <h2>OpenGuide-Assist</h2>
+  <h6>An open source tool to help guidance</h6>
+    <div class="inner_section">
+ <div class="row">
+      <div class="col-md-6"> <img class="img-responsive" src="img/placeholder.png" align=""> </div>
+      <div class="col-md-6">
+        <p>Open Guide tool intro: xxxxxxxxxxxxxxxxxxxxx</p> 
+                 
+      </div>
+    </div>
+       </div>
+  </div> 
+  </div>
+</section>
+<!--Aboutus--> 
+
  
 <!--Footer-->
 <footer class="footer_wrapper" id="contact">
   <div class="container">
     <section class="page_section contact" id="contact">
       <div class="contact_section">
-        <h2>Contact Us</h2>
-	<h6>Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum</h6>
+        <h2>OpenGuide Crowd</h2>
+	<h6>Share your data by the following protocol</h6>
      
       </div>
       <div class="row">

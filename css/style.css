@@ -7,6 +7,13 @@ Licence under Creative Commons Attribution 3.0
 @charset "utf-8";
 @import url(http://fonts.googleapis.com/css?family=Raleway:800,700,400);
 @import url(http://fonts.googleapis.com/css?family=Signika:400,600);
+/* Added by Gilad*/
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+}
 
 /* Reset
 ---------------------------------*/
@@ -242,8 +249,8 @@ p {
 ---------------------------------*/
 
 #header_wrapper {
-    background: #15BA57;
-    padding: 20px 0px;
+    background: #ffffff;
+    padding: 10px 0px;
 	
     border-top: 4px solid #FFFFFF;
 	box-shadow: 1px 1px 4px rgba(60, 60, 60, 0.44);
@@ -257,6 +264,7 @@ p {
 
 .logo {
     float: left;
+    width : 20%;
     margin-top: 8px;
 	position: relative;
 	z-index: 2;
@@ -281,7 +289,7 @@ p {
 }
 
 .navbar-inverse .navbar-nav > li > a {
-    color: #0A1525;
+    color: #595959;
 }
 
 .navStyle {
@@ -322,7 +330,7 @@ p {
 .navStyle ul li a:hover {
     color: #ED5441;
 }
-
+ 
 .navStyle > li > a:hover, .nav > li > a:focus {
     text-decoration: none;
     color: #ED5441;
@@ -330,13 +338,13 @@ p {
 }
 
 .navbar-inverse .navbar-nav > li > a:hover, .navbar-inverse .navbar-nav > li > a:focus {
-    color: #FFFFFF;
+    color: #7030a0;
     background-color: transparent;
 }
 
 .navbar-inverse .navbar-nav > .active > a, .navbar-inverse .navbar-nav > .active > a:hover, .navbar-inverse .navbar-nav > .active > a:focus {
-    color: #0A1525;
-    background-color: #FFFFFF;
+    color: #ffffff;
+    background-color: #7030a0;
     border-radius: 4px;
 }
 
@@ -363,19 +371,19 @@ p {
 ---------------------------------*/
 
 .top_cont_outer {
-    background: #ED5441;
+    background: #ffffff;
     position: relative; 
-    background: url('../img/main2.png') no-repeat;
-	background-size: cover; 
+    /*background: url('../img/main2.png') no-repeat;
+	background-size: cover; */
 }
 
 .hero_section {
     position: relative;
-    padding-top: 72px;
+    /*padding-top: 72px;*/
 }
 .hero_wrapper {
-background: rgba(10, 21, 37, 0.69);
-height: 650px;
+background: rgba(10, 21, 37, 0);
+height: 700px;
 }
 .white_pad {
     position: relative;
@@ -403,7 +411,7 @@ height: 650px;
 
 .top_left_cont h2 {
     font-size: 40px;
-    color: #FFF;
+    color: #595959;
     line-height: 52px;
     margin: 0 0 26px 0;
     font-family: 'Raleway', sans-serif;
@@ -413,7 +421,7 @@ height: 650px;
 .top_left_cont h2 strong {
     font-weight: 700;
 	
-    color: #12D35E;
+    color: #7030a0;
 }
 
 .top_left_cont p {
@@ -444,7 +452,7 @@ a.read_more, a.read_more2 {
     -moz-transition: all 0.2s ease-in-out;
     -webkit-transition: all 0.2s ease-in-out;
     background: transparent;
-    color: #fff;
+    color: #7030a0;
     border: 1px solid #fff;
 	margin:0 auto;
 }
@@ -453,9 +461,9 @@ a.read_more{
 	 border: 1px solid #3C3C3C;
 }
 a.read_more2:hover, a.read_more:hover {
-    background: #fff;
-    color: #0A1525;
-    border: 1px solid #fff;
+    background: #7030a0;
+    color: #ffffff;
+    border: 1px solid #595959;
 }
 a.read_more:hover {
     background: #fff;
@@ -476,7 +484,7 @@ a.read_more:hover {
 
 #service {
     padding: 60px 0px;
-    background: #11D25D;
+    background: #7030a0;
 }
 #service h2{
   color: #fff;
@@ -510,7 +518,7 @@ a.read_more:hover {
     height: 100%;
     width: 100%;
 	
-    border: 1px solid #0A1525;
+    border: 1px solid #ffffff;
     border-radius: 50%;
 }
 
@@ -788,7 +796,7 @@ img {
 
 
 .client_logos {
-    background: #11D25D;
+    background: #7030a0;
     padding: 60px 0;
     margin-top: 60px;
 }
@@ -879,7 +887,7 @@ color:#A3ACBA;
 	position: absolute;
 	font-family: FontAwesome;
 	font-size: 1.125em;
-	color: #11D25D;
+	color: #7030a0;
 	left: 0px;
 	top: 3px;
 }
@@ -1025,14 +1033,14 @@ font-size: 15px;
 line-height: 30px;
 outline: 0;
 color: #fff;
-background-color: #11D25D;
+background-color: #7030a0;
 -webkit-transition: all .3s;
 -moz-transition: all .3s;
 transition: all .3s;
 }
 #aboutUs {
     padding: 60px 0;
-    background: #0A1525;
+    background: #ffffff;
 }
 
 /* Contact
@@ -1047,7 +1055,7 @@ transition: all .3s;
 
 .contact_section h2 {
     font-size: 40px;
-    color: #ffffff;
+    color: #7030a0;
     margin: 0 0 50px 0;
     text-transform: uppercase;
 }
@@ -1244,7 +1252,7 @@ transition: all .3s;
 ---------------------------------*/
 
 .footer_wrapper {
-    background: #0A1525;
+    background: #ffffff;
 }
 
 .footer_bottom {
@@ -1380,10 +1388,10 @@ transition: all .3s;
 }
 
 #filters ul li a:hover h5, #filters ul li a.active h5 {
-    background: #11D25D;
+    background: #7030a0;
     color: #FFFFFF;
     text-decoration: none;
-    border: #11D25D solid 1px;
+    border: #7030a0 solid 1px;
 }
 
 .section-title h2 {
