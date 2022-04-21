@@ -1,6 +1,6 @@
-# About Dataset
+# 3D Mesh Reconstruction Dataset
 
-One Paragraph about data description goes here. You can also state why this data was collected.
+We collect data across four towns, 14 settings with various weather conditions and times of day in a recent proposed Xworld environment (Zhang et al., [2021](https://openaccess.thecvf.com/content/ICCV2021/papers/Zhang_X-World_Accessibility_Vision_and_Autonomy_Meet_ICCV_2021_paper.pdf)). In each town, we spawn 150 vehicles and 300 pedestrians 20% of which are disabled pedetrians. The dataset consists of 3752 training images and 3790 testing images containing 4186 visually impaired pedestrians and canes, 3788 wheelchaired pedestrians and wheelchairs, 32746 nondisabled pedestrians, 19697 vehicles, and 8848 riders. The class statistics are shown in below
 
 ## About Data collection methodology
 
