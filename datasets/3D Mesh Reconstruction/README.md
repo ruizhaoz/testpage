@@ -10,7 +10,7 @@ We collect data across four towns, 14 settings with various weather conditions a
 ## Access the data
 
 ### Dataset link
-* [MeshData](https://www.kaggle.com/datasets) - Link to the data repository.
+* [MeshData](https://drive.google.com/drive/folders/1c1tMHgXwNEEuJR-YwapavObSoCQAQUM6?usp=sharing) - Link to the data repository.
 
 
 ### Dataset format
