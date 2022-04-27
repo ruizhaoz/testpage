@@ -226,7 +226,7 @@ h2 {
     font-weight: normal;
     margin: 0px 0 25px 0;
     text-align: center;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 h3 {
@@ -326,7 +326,7 @@ p {
     color: #222222;
     font-family: 'Raleway', sans-serif;
     text-decoration: none;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
     font-weight: 600;
     transition: all 0.2s ease-in-out;
     -moz-transition: all 0.2s ease-in-out;
