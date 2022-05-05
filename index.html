@@ -4,7 +4,7 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, maximum-scale=1">
 <title>Open Guide</title>
-<link rel="icon" href="favicon.png" type="image/png">
+<link rel="icon" href="img/og_person.jpg" type="image/jpg">
 <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 <link rel="stylesheet" href="js/fancybox/jquery.fancybox.css" type="text/css" media="screen" />
 <link href="css/style.css" rel="stylesheet" type="text/css"> 
@@ -21,7 +21,7 @@
 <body>
 
 <!--Hero_Section-->
-<section id="hero_section" class="top_cont_outer">
+<!-- <section id="hero_section" class="top_cont_outer">
   <div class="hero_wrapper">
     <div class="container">
       <div class="hero_section">
@@ -31,34 +31,34 @@
             <div class="top_left_cont zoomIn wow animated"> 
               <img src="img/BostonU-OpenGuide_0.png" alt="logo2" class="center">
               <h2>A Scalable Human-Like Guidance System for Visually Impaired Travelers<br/><strong>Open-Guide</strong></h2>
- <!-- <a href="#service" class="read_more2">My Gallery</a> -->
                </div>
           </div> 
         </div>
       </div>
     </div>
   </div>
-</section>
+</section> -->
 <!--Hero_Section--> 
 
 <!--Header_section-->
 <header id="header_wrapper">
   <div class="container">
     <div class="header_box">
-      <div class="logo"><a href="#"><img src="img/logo_large.png" alt="logo"></a></div>
+<!--       <div class="logo"><a href="#"><img src="img/logo_large.png" alt="logo"></a></div> -->
+<div class="logo"><a href="#"><img src="img/OGlg.png" alt="logo"></a></div>
 	  <nav class="navbar navbar-inverse" role="navigation">
       <div class="navbar-header">
         <button type="button" id="nav-toggle" class="navbar-toggle" data-toggle="collapse" data-target="#main-nav"> <span class="sr-only">Toggle navigation</span> <span class="icon-bar"></span> <span class="icon-bar"></span> <span class="icon-bar"></span> </button>
         </div>
 	    <div id="main-nav" class="collapse navbar-collapse navStyle">
 			<ul class="nav navbar-nav" id="mainNav">
-			  <li class="active navbar-nav"><a href="#hero_section" class="scroll-link">Home</a></li>
-			  <li><a href="#aboutUs" class="scroll-link ">About</a></li>
-			  <!-- <li><a href="#service" class="scroll-link">Our Goals</a></li> -->
-			  <li><a href="#Videos" class="scroll-link">Videos</a></li>
+<!-- 			  <li class="active navbar-nav"><a href="#hero_section" class="scroll-link">Home</a></li> -->
+			  <li><a href="#aboutUs" class="scroll-link ">About</a></li> 
+        <li><a href="#service" class="scroll-link">Goal</a></li> 
         <li><a href="#Dataset" class="scroll-link">Benchmark</a></li>
         <li><a href="#Tool" class="scroll-link">System</a></li>    
 			  <li><a href="#contact" class="scroll-link">Crowd</a></li>
+        <li><a href="#Videos" class="scroll-link">Videos</a></li>
 			</ul>
       </div>
 	 </nav>
@@ -70,29 +70,11 @@
 <section id="aboutUs"><!--Aboutus-->
 <div class="inner_wrapper about-us aboutUs-container fadeInLeft animated wow">
   <div class="container">
-    <h2>About OpenGuide</h2>
-	<h6>MOBILITY, ASSISTANCE, SCALE</h6>
-    <div class="inner_section">
- <div class="row">
-      <div class="col-md-6"> <img class="img-responsive" src="img/about1.png" align=""> </div>
-      <div class="col-md-6">
-        <p>Team OpenGuide builds upon their expertise in AI and personalized assistive technologies to realize an inclusive assistive navigation device that can flexibly meet the real-time needs of diverse users (e.g., various navigation skills, preferences, and mobility aids) in a context-dependent manner (e.g., indoors, outdoors, or in-vehicle) through two holistic platforms:</p> 
-         
-<!--         <p>Lorem ipsum dolor sit amet, voluptaria, erant bonorum albucius et per, ei meis audire placerat eu, te eos porro veniam. An everti maiorum detracto mea. Lorem ipsum dolor sit amet, consectetur Morbi sagittis, sem quisci ipsum gravida tortor orci ipsum gravida tortor.  -->
-									<!-- </p> -->
+    <h2>OpenGuide</h2>
+	<h6>A Scalable Human-Like Guidance System for Visually Impaired Travelers</h6>
+       <img src="img/highlevel.jpg" alt="crowd" class="center_section1">
 
-									<ul class="about-us-list">
-										<li class="points">OpenGuide-Benchmark</li> 
-                    <p>A large, standardized dataset with expert guidance annotations which can be used to train machine-learning models to provide door-to-car-to-door assistance for a person with visual impairments.</p> 
-                    <li class="points">OpenGuide-Assist </li>
-                    <p>An assistive system interacting with its environment and providing personalized assistance to the user.</p> 
-									</ul><!-- /.about-us-list -->
-								 
-      </div>
-    </div>
 	     </div>
-  </div> 
-  </div>
 </section>
 <!--Aboutus--> 
 
@@ -100,11 +82,11 @@
 <!--Service-->
 <section  id="service">
   <div class="container">
-    <h2>Our Goals</h2>
-	<h6>Build a collabrative platform for data collection and smart algorithms to assist blind people (TODO)</h6>
+    <h2>Our Goal</h2>
+	<h6>A standarized open-source development framework and an intutive assistive origin-to-vehicle-to-destination system.</h6>
     <div class="service_wrapper">
       <div class="row">
-        <div class="col-md-3">
+        <div class="col-md-4">
 		<div class="service_icon delay-03s animated wow  zoomIn"> <span><i class="fa fa-cloud-download"></i></span> </div>
           <div class="service_block">
             
@@ -112,26 +94,26 @@
             <p class="animated fadeInDown wow">Open-sourced dataset. </p>
           </div>
         </div>
-        <div class="col-md-3"> 
+<!--         <div class="col-md-3"> 
 		<div class="service_icon icon2  delay-03s animated wow zoomIn"> <span><i class="fa fa-location-arrow"></i></span> </div> 
 		<div class="service_block">
             <h3 class="animated fadeInUp wow"> Algorithm</h3>
             <p class="animated fadeInDown wow">Smart vision-based navigation algorithms.   </p>
           </div>
-        </div>
-        <div class="col-md-3">
-		<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-compress "></i></span> </div>
+        </div> -->
+        <div class="col-md-4">
+		<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-cogs "></i></span> </div>
           <div class="service_block">
             
-            <h3 class="animated fadeInUp wow"> Interaction</h3>
+            <h3 class="animated fadeInUp wow"> System</h3>
             <p class="animated fadeInDown wow"> Interactions between simulation and real-world.  </p>
           </div>
         </div>
-		  <div class="col-md-3">
+		  <div class="col-md-4">
 		<div class="service_icon icon3  delay-03s animated wow zoomIn"> <span><i class="fa fa-users"></i></span> </div>
           <div class="service_block">
             
-            <h3 class="animated fadeInUp wow">Collaboration</h3>
+            <h3 class="animated fadeInUp wow">Crowd</h3>
             <p class="animated fadeInDown wow"> A collaborative platform.  </p>
           </div>
         </div>
@@ -143,45 +125,7 @@
 
 <!--Header_section--> 
 
-<section id="Videos"><!--Videos-->
-<div class="inner_wrapper about-us aboutUs-container fadeInLeft animated wow">
-  <div class="container">
-    <h2>Videos</h2>
-<!--   <h6>MOBILITY, ASSISTANCE, SCALE</h6> -->
-  <hr/>
-  <div class="row" style="text-align:center">
-    <div class="col-xs-4 text-center">
-      <h4><u>OpenGuide</u> </h4>
-      <div class="embed-responsive embed-responsive-16by9" style="text-align:center">
-        <iframe class="embed-responsive-item text-center" src="https://www.youtube.com/embed/mGq9sL1spzc" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          style="width:100%; clip-path:inset(1px 1px);" allowfullscreen></iframe>
-      </div>
-    </div>
 
-    <div class="col-xs-4 text-center">
-      <h4><u>X-World</u> </h4>
-      <div class="embed-responsive embed-responsive-16by9" style="text-align:center">
-        <iframe class="embed-responsive-item text-center" src="https://www.youtube.com/embed/z_YwWIZWg58" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          style="width:100%; clip-path:inset(1px 1px);" allowfullscreen></iframe>
-      </div>
-    </div>
-  
-  <div class="row" style="text-align:center">
-    <div class="col-xs-4 text-center">
-      <h4><u>Getting Around</u> </h4>
-      <div class="embed-responsive embed-responsive-16by9" style="text-align:center">
-        <iframe class="embed-responsive-item text-center" src="https://www.youtube.com/embed/ue0Y7UdjMu4" frameborder="0"
-          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
-          style="width:100%; clip-path:inset(1px 1px);" allowfullscreen></iframe>
-      </div>
-    </div>
-
-  </div> 
-</div>
-  </div>
-</section>
 
 
 <!-- Portfolio -->
@@ -398,7 +342,7 @@
   <!-- <h6>An open source tool to help guidance</h6> -->
     <div class="inner_section">
  <div class="row">
-      <div class="col-md-12"> <img class="img-responsive" src="img/assist.png" align=""> </div>
+<!--       <div class="col-md-12"> <img class="img-responsive" src="img/assist.png" align=""> </div> -->
 <!--       <div class="col-md-6"> <img class="img-responsive" src="img/assist2.png" align=""> </div> -->
       <br /><br />
       <div class="col-md-4"> <img class="img-responsive" src="img/assist_vis1.png" align=""> </div>
@@ -418,8 +362,6 @@
   </div>
 </section>
 <!--Aboutus--> 
-
- 
 <!--Footer-->
 <footer class="footer_wrapper" id="contact">
   <div class="container">
@@ -444,9 +386,9 @@
                                 <h4>Mail us: 8 St Mary's St, Boston, MA 02215</h4>
                             </div>
                             <br /><br />
-                            <div class="detail">
+<!--                             <div class="detail">
                                 <h4>Call us: +1 234 567890</h4>
-                            </div>
+                            </div> -->
                             <br /><br />
                             <div class="detail">
                                 <h4>Email us: mobility@bu.edu</h4>
@@ -473,10 +415,50 @@
       </div>
     </section>
   </div>
-  <div class="container">
+<!--   <div class="container">
     <div class="footer_bottom"><span>Copyright © reserved,    Template by <a href="http://webthemez.com">WebThemez.com</a>. </span> </div>
-  </div>
+  </div> -->
 </footer>
+
+<section id="Videos"><!--Videos-->
+<div class="inner_wrapper about-us aboutUs-container fadeInLeft animated wow">
+  <div class="container">
+    <h2>Videos</h2>
+<!--   <h6>MOBILITY, ASSISTANCE, SCALE</h6> -->
+  <hr/>
+  <div class="row" style="text-align:center">
+    <div class="col-xs-4 text-center">
+      <h4><u>OpenGuide</u> </h4>
+      <div class="embed-responsive embed-responsive-16by9" style="text-align:center">
+        <iframe class="embed-responsive-item text-center" src="https://www.youtube.com/embed/mGq9sL1spzc" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          style="width:100%; clip-path:inset(1px 1px);" allowfullscreen></iframe>
+      </div>
+    </div>
+
+    <div class="col-xs-4 text-center">
+      <h4><u>X-World</u> </h4>
+      <div class="embed-responsive embed-responsive-16by9" style="text-align:center">
+        <iframe class="embed-responsive-item text-center" src="https://www.youtube.com/embed/z_YwWIZWg58" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          style="width:100%; clip-path:inset(1px 1px);" allowfullscreen></iframe>
+      </div>
+    </div>
+  
+  <div class="row" style="text-align:center">
+    <div class="col-xs-4 text-center">
+      <h4><u>Getting Around</u> </h4>
+      <div class="embed-responsive embed-responsive-16by9" style="text-align:center">
+        <iframe class="embed-responsive-item text-center" src="https://www.youtube.com/embed/ue0Y7UdjMu4" frameborder="0"
+          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+          style="width:100%; clip-path:inset(1px 1px);" allowfullscreen></iframe>
+      </div>
+    </div>
+
+  </div> 
+</div>
+  </div>
+</section>
 
 <script type="text/javascript" src="js/jquery-1.11.0.min.js"></script>
 <script type="text/javascript" src="js/bootstrap.min.js"></script>

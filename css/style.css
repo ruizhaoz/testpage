@@ -13,6 +13,13 @@ Licence under Creative Commons Attribution 3.0
   margin-right: auto;
   width: 8%;
 }
+
+.center_section1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 70%;
+}
 /* Added by Gilad*/
 .center {
   display: block;
@@ -220,7 +227,7 @@ body {
 }
 
 h2 {
-    font-size: 38px;
+    font-size: 40px;
     color: #222222;
     font-family: 'Raleway', sans-serif;
     font-weight: normal;
@@ -238,7 +245,7 @@ h3 {
 }
 
 h6 {
-    font-size: 16px;
+    font-size: 32px;
     color: #888888;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
@@ -270,7 +277,7 @@ p {
 
 .logo {
     float: left;
-    width : 20%;
+    width : 10%;
     margin-top: 8px;
 	position: relative;
 	z-index: 2;
@@ -317,7 +324,7 @@ p {
 }
 
 .navStyle ul li:last-child {
-    margin: 0 0 0 23px;
+    margin: 0 0 0 0px;
 }
 
 .navStyle ul li a {
@@ -1063,7 +1070,7 @@ transition: all .3s;
     font-size: 40px;
     color: #7030a0;
     margin: 0 0 50px 0;
-    text-transform: uppercase;
+    /*text-transform: uppercase;*/
 }
 
 .contact_block {
@@ -1347,6 +1354,7 @@ transition: all .3s;
 /* Portfolio */	
 	
 .container.portfolio_title {
+    margin-top: 50px;
     padding-bottom: 0px;
 }
 
